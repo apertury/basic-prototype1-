@@ -45,10 +45,15 @@ while True:
       print("1. Log Life, 2. Exit")
       print("3. U/C, 4. U/C")
       kee = input(">: ")
-      if kee.lower() in ["1", "one"]:
+      if kee.lower() in ["1", "one", "log"]:
         logs(), print("\n"), time.sleep(1)
         print("\n")
+      elif kee.lower() in ["2", ]
       
     else:
       print("Incorrect Password / Username")
       print("\n"), print("\n"), time.sleep(.5)
+  else:
+      print ("Incorrect Password / Username")
+      print("\n"), print("\n"), time.sleep (1)
+      print("\n")
